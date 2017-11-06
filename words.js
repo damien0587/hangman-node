@@ -2,7 +2,7 @@ var wordArray = ["formation", "platinum", "flawless", "queen", "elevator", "twin
 
 var Word = function() {
     this.randomWord = wordArray[Math.floor(Math.random() * wordArray.length)];
-    console.log(randomWord);
+    //console.log(this.randomWord);
 }
 
 module.exports = Word;

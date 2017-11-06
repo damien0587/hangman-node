@@ -1,9 +1,13 @@
-var words = require("./words.js");
+var Letters = function(randomSong) {
+	this.answerArray= [];
+    //for loop to add appropriate number of "_"
+    for (var i = 0; i < randomSong.length; i++) {
+        this.answerArray[i] = " _";
+    }
+    //console.log(this.answerArray);
 
-var answerArray = [];
- 	//for loop to add appropriate number of "_"
- 	for (var i = 0; i < randomSong.length; i++) {
-  	  		answerArray[i] = " _ ";
-  	  		console.log(answerArray);
-	//send blank spaces to #blankSpaces on page
-  	  console.log(text(answerArray.join(""));
+    //send blank spaces to #blankSpaces on page
+    //console.log(this.answerArray.join(""));
+};
+
+module.exports= Letters
